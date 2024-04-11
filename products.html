@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body class="bg-slate-900 mx-12 my-4">
+
+    <!-- Main heading PRODUCTS starts here -->
+    <div class="flex items-center">
+      <div class="mx-auto border-b border-cyan-400 border-b-4 ">
+        <div class="text-center text-white text-4xl py-2">
+          PRODUCTS
+        </div>
+      </div>
+    </div>
+    <!-- Main heading PRODUCTS end here -->
+
+    <!-- filters section starts here -->
+    <div class="flex pb-8">
+        <button class="text-white border-cyan-400 border-2 rounded-lg px-4 py-2 mr-2 focus:outline-none focus:bg-cyan-400 focus:text-black">View All</button>
+        <button class="text-white border-cyan-400 border-2 rounded-lg px-4 py-2 mr-2 focus:outline-none focus:bg-cyan-400 focus:text-black">Eyeglass</button>
+        <button class="text-white border-cyan-400 border-2 rounded-lg px-4 py-2 mr-2 focus:outline-none focus:bg-cyan-400 focus:text-black">Accessories</button>
+        <div class="float-right"> 
+          <button class="bg-cyan-700 text-white border-cyan-700 border-2 rounded-lg px-4 py-2 mr-2 focus:outline-none">Filter</button>
+          <div class="right-0 mt-2 py-2 w-48 bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 hidden ">
+            <div class="text-gray-700 block px-4 py-2 text-sm">Option 1</div>
+            <div class="text-gray-700 block px-4 py-2 text-sm">Option 2</div>
+            <div class="text-gray-700 block px-4 py-2 text-sm">Option 3</div>
+          </div>
+        </div>
+    </div>
+    <!-- filters section ends here -->
+
+    <!-- Product section card starts here -->
+      <div class="grid grid-cols-4 gap-20 overflow-hidden py-4">
+        <div class="bg-white rounded-lg shadow-md pb-4">
+          <img class="w-full h-48 object-cover mb-4 rounded-lg" src="../public/images/ProductCardBg.jpg" alt="image description">
+          <div class="text-lg font-bold mb-2 px-4 float-right">$100</div>
+          <div class="text-xl font-bold mb-2 px-4">PRODUCT 1</div>
+          <div class="float-right px-4">****.</div>
+          <div class="text-lg font-bold mb-2 px-4">Eyeglass</div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md pb-4">
+          <img class="w-full h-48 object-cover mb-4 rounded-lg" src="../public/images/ProductCardBg.jpg" alt="image description">
+          <div class="text-lg font-bold mb-2 px-4 float-right">$100</div>
+          <div class="text-xl font-bold mb-2 px-4">PRODUCT 1</div>
+          <div class="float-right px-4">****.</div>
+          <div class="text-lg font-bold mb-2 px-4">Eyeglass</div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md pb-4">
+          <img class="w-full h-48 object-cover mb-4 rounded-lg" src="../public/images/ProductCardBg.jpg" alt="image description">
+          <div class="text-lg font-bold mb-2 px-4 float-right">$100</div>
+          <div class="text-xl font-bold mb-2 px-4">PRODUCT 1</div>
+          <div class="float-right px-4">****.</div>
+          <div class="text-lg font-bold mb-2 px-4">Eyeglass</div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md pb-4">
+          <img class="w-full h-48 object-cover mb-4 rounded-lg" src="../public/images/ProductCardBg.jpg" alt="image description">
+          <div class="text-lg font-bold mb-2 px-4 float-right">$100</div>
+          <div class="text-xl font-bold mb-2 px-4">PRODUCT 1</div>
+          <div class="float-right px-4">****.</div>
+          <div class="text-lg font-bold mb-2 px-4">Eyeglass</div>
+        </div>
+    </div>
+    <!-- Product section card ends here -->
+
+    <!-- Load more button start here -->
+        <div class="flex justify-center mt-4 py-8">
+            <button class="hover:shadow-2xl active:text-white hover:shadow-cyan-500/50  border-cyan-400 border-2 bg-cyan-400 text-black hover:bg-cyan-400 hover:text-black active:bg-cyan-800 text-white font-bold py-2 px-4 rounded">
+              Load More
+            </button>
+          </div>
+          
+    <!-- Load more button ends here -->
+ 
+</body>
+</html>
